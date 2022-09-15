@@ -1,0 +1,9 @@
+Product:
+  Bag:
+    btn_add_to_cart:  //button[@id='add-to-cart-sauce-labs-backpack']
+  
+  Title:
+    txt_title:  //span[text()='Products']
+
+  Cart:
+    btn_cart: //a[@class='shopping_cart_link']
