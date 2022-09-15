@@ -7,3 +7,5 @@ Product:
 
   Cart:
     btn_cart: //a[@class='shopping_cart_link']
+    txt_item: //div[text()='Sauce Labs Backpack']
+    btn_remove: remove-sauce-labs-backpack

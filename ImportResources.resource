@@ -14,5 +14,7 @@ Library    BuiltIn
 #Import Functional Keywords
 Resource    ${CURDIR}/Keywords/Functional/Login.resource
 Resource    ${CURDIR}/Keywords/Functional/Product.resource
+Resource    ${CURDIR}/Keywords/Functional/Cart.resource
 #Import Variables
 Variables   ${CURDIR}/Locators/login.yaml
+Variables   ${CURDIR}/Locators/products.yaml

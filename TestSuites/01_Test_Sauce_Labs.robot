@@ -11,8 +11,15 @@ Login To Web Application And Check Title
     Start Test Environment
     Title Should Be     ${title}
 
-Add And Verify Product In The Cart
-    [Tags]  Product  SauceLabs
+Add And Remove Product In The Cart
+    [Tags]  Product   Cart  SauceLabs
     [Setup]     Start Test Environment
-    Page Should Contains Element    ${Product.Title.txt_title}
+    Page Should Contain Element    ${Product.Title.txt_title}
+    Add Sauce Labs Backpack In The Cart
+    Navigate To Cart Page
+    Page Should Contain Element   ${Product.Cart.txt_item}
+    Remove Sauce Labs Backpack From The Cart
+    Page Should Not Contain Element    ${Product.Cart.txt_item}
+
+
 
